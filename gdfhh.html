@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Background Showcase</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    
+
+    section {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 2rem;
+      text-align: center;
+      margin: 0;
+      overflow: hidden;
+    }
+
+    /* Background 1: Blurry Gradient */
+    .blurry-gradient {
+      background: linear-gradient(120deg, #ff9a9e, #fad0c4, #fbc2eb, #a6c1ee);
+      background-size: 200% 200%;
+      animation: blurAnimation 10s ease infinite;
+    }
+
+    @keyframes blurAnimation {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    /* Background 2: Mesh Gradient */
+    .mesh-gradient {
+      background: radial-gradient(circle at 20% 20%, #ff9a9e, transparent 30%),
+                  radial-gradient(circle at 80% 80%, #fad0c4, transparent 30%),
+                  radial-gradient(circle at 50% 50%, #fbc2eb, transparent 30%);
+      background-color: #1e1e1e;
+    }
+
+    /* Background 3: Moving Waves */
+    .moving-waves {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .moving-waves::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, #4facfe, #00f2fe);
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
+      animation: wave 4s infinite alternate;
+    }
+
+    @keyframes wave {
+      0% { clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%); }
+      100% { clip-path: polygon(0 20%, 100% 10%, 100% 90%, 0 100%); }
+    }
+
+    /* Background 4: Glassmorphism */
+    .glassmorphism {
+      background: linear-gradient(135deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1));
+      backdrop-filter: blur(10px);
+      color: black;
+    }
+
+    /* Background 5: Hexagonal Grid */
+    .hexagonal-grid {
+      background-color: #222;
+      background-image: radial-gradient(circle at top left, rgba(255, 255, 255, 0.05), transparent),
+                        radial-gradient(circle at bottom right, rgba(255, 255, 255, 0.05), transparent);
+      background-size: 50px 50px;
+    }
+
+    /* Background 6: Matrix Effect */
+    .matrix {
+      background: black;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .matrix canvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+  </style>
+</head>
+<body>
+  <section class="blurry-gradient">
+    Blurry Gradient Background
+  </section>
+  <section class="mesh-gradient">
+    Mesh Gradient Background
+  </section>
+  <section class="moving-waves">
+    Moving Waves Background
+  </section>
+  <section class="glassmorphism">
+    Glassmorphism Background
+  </section>
+  <section class="hexagonal-grid">
+    Hexagonal Grid Background
+  </section>
+  <section class="matrix">
+    <canvas id="matrixCanvas"></canvas>
+    Matrix Code Background
+  </section>
+
+  <script>
+    // Matrix Effect
+    const canvas = document.getElementById('matrixCanvas');
+    const ctx = canvas.getContext('2d');
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+    const cols = Math.floor(canvas.width / 20);
+    const ypos = Array(cols).fill(0);
+
+    function matrix() {
+      ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+      ctx.fillStyle = '#0f0';
+      ctx.font = '15px monospace';
+
+      ypos.forEach((y, index) => {
+        const text = String.fromCharCode(0x30A0 + Math.random() * 96);
+        const x = index * 20;
+        ctx.fillText(text, x, y);
+        ypos[index] = y > canvas.height || Math.random() > 0.95 ? 0 : y + 20;
+      });
+    }
+    setInterval(matrix, 50);
+  </script>
+</body>
+</html>

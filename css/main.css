@@ -2578,4 +2578,539 @@ form .site-btn{
 	}
 }
 
+@media screen and (max-width: 480px) {
 
+	.spacer-90 {
+		height: 45px;
+		width: 100%;
+	}
+
+	.spacer-120 {
+		height: 60px;
+		width: 100%;
+	}
+
+	.spacer-150 {
+		height: 75px;
+		width: 100%;
+	}
+
+	.spacer-180 {
+		height: 90px;
+		width: 100%;
+	}
+
+	.spacer-210 {
+		height: 105px;
+		width: 100%;
+	}
+
+	.spacer-240 {
+		height: 120px;
+		width: 100%;
+	}
+
+	.spacer-270 {
+		height: 135px;
+		width: 100%;
+	}
+
+	.spacer-300 {
+		height: 150px;
+		width: 100%;
+	}
+
+	.spacer-330 {
+		height: 165px;
+		width: 100%;
+	}
+
+	.spacer-360 {
+		height: 180px;
+		width: 100%;
+	}
+
+	.spacer-390 {
+		height: 195px;
+		width: 100%;
+	}
+
+	.spacer-420 {
+		height: 210px;
+		width: 100%;
+	}
+
+	.spacer-450 {
+		height: 225px;
+		width: 100%;
+	}
+
+	.spacer-480 {
+		height: 240px;
+		width: 100%;
+	}
+
+	.spacer-510 {
+		height: 255px;
+		width: 100%;
+	}
+
+	.spacer-540 {
+		height: 270px;
+		width: 100%;
+	}
+
+	.spacer-570 {
+		height: 285px;
+		width: 100%;
+	}
+
+	.spacer-600 {
+		height: 300px;
+		width: 100%;
+	}
+
+	.spacer-630 {
+		height: 315px;
+		width: 100%;
+	}
+
+	.spacer-660 {
+		height: 330px;
+		width: 100%;
+	}
+
+	.spacer-690 {
+		height: 345px;
+		width: 100%;
+	}
+
+	.spacer-720 {
+		height: 360px;
+		width: 100%;
+	}
+
+	.spacer-750 {
+		height: 375px;
+		width: 100%;
+	}
+
+  
+	.spacer-780 {
+		height: 390px;
+		width: 100%;
+	}
+
+}
+
+
+/* body {
+	background: radial-gradient(circle at center, #0f0f0f, #1b1b1b);
+	box-shadow: 0 0 100px rgba(0, 255, 255, 0.5);
+	background-attachment: fixed;
+	background-size: cover;
+	color: white;
+  }
+   */
+
+
+
+
+   /* body {
+	background: #0d1117;
+	background-image: url("https://www.transparenttextures.com/patterns/circuit-board.png");
+	background-size: cover;
+	color: white;
+  } */
+  
+
+
+
+  /* body {
+	background: linear-gradient(120deg, #ff9a9e, #fad0c4, #fbc2eb, #a6c1ee);
+	background-size: 200% 200%;
+	animation: blurAnimation 10s ease infinite;
+	color: black;
+  }
+  
+  
+  @keyframes blurAnimation {
+	0% { background-position: 0% 50%; }
+	50% { background-position: 100% 50%; }
+	100% { background-position: 0% 50%; }
+  }
+   */
+
+
+
+
+
+
+
+
+   
+
+/* body {
+  background: radial-gradient(circle at 20% 20%, #ff9a9e, transparent 30%), 
+              radial-gradient(circle at 80% 80%, #fad0c4, transparent 30%), 
+              radial-gradient(circle at 50% 50%, #fbc2eb, transparent 30%);
+  background-color: #1e1e1e;
+  background-size: cover;
+  color: white;
+} */
+
+
+
+
+
+
+
+
+
+/* 
+body {
+	margin: 0;
+	overflow: hidden;
+  }
+  body::before {
+	content: '';
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(90deg, #4facfe, #00f2fe);
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
+	animation: wave 4s infinite alternate;
+  }
+  
+  @keyframes wave {
+	0% { clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%); }
+	100% { clip-path: polygon(0 20%, 100% 10%, 100% 90%, 0 100%); }
+  }
+   */
+
+
+
+
+
+
+
+
+body
+{
+	/* 1. Gradient Background */
+/* background: linear-gradient(135deg, #000000, #39FF14); */
+
+/* 2. Subtle Gradient */
+
+
+/* background: linear-gradient(120deg, #1b1b1b, #28A745); */
+
+
+/* 3. Diagonal Stripe Pattern */
+
+
+/* background: repeating-linear-gradient(
+  45deg,
+  #000000,
+  #000000 10px,
+  #1a1a1a 10px,
+  #1a1a1a 20px
+); */
+
+
+
+/* 4. Animated Gradient */
+
+
+
+/* background: linear-gradient(90deg, #000000, #39FF14, #28A745);
+background-size: 300% 300%;
+animation: gradient-animation 6s ease infinite;
+@keyframes gradient-animation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+} */
+
+
+
+/* 5. Noise Texture */
+
+
+
+/* background: #000000;
+background-image: url('https://www.transparenttextures.com/patterns/noise.png');
+ */
+
+
+
+/* 6. Dotted Pattern */
+
+
+/* 
+background: radial-gradient(circle, #28A745 1px, #000000 1px);
+background-size: 10px 10px; */
+
+
+
+
+/* 7. Horizontal Lines */
+
+/* 
+background: repeating-linear-gradient(
+  0deg,
+  #1b1b1b,
+  #1b1b1b 5px,
+  #000000 5px,
+  #000000 10px
+); */
+
+
+
+
+/* 8. Vertical Lines */
+
+
+
+/* background: repeating-linear-gradient(
+  90deg,
+  #1b1b1b,
+  #1b1b1b 5px,
+  #000000 5px,
+  #000000 10px
+); */
+
+
+
+
+/* 9. Chevron Pattern */
+
+
+/* 
+background: repeating-linear-gradient(
+  45deg,
+  #1b1b1b,
+  #1b1b1b 15px,
+  #000000 15px,
+  #000000 30px
+); */
+
+
+
+/* 10. Radial Gradient */
+
+
+/* background: radial-gradient(circle, #28A745, #000000);
+
+ */
+
+/* 11. Polka Dots */
+
+/* 
+background: radial-gradient(circle, #28A745 5%, transparent 6%);
+background-size: 30px 30px; */
+
+
+
+/* 12. Stripes */
+
+
+/* 
+background: linear-gradient(45deg, #1b1b1b 25%, transparent 25%, transparent 75%, #1b1b1b 75%, #1b1b1b);
+background-size: 50px 50px; */
+
+
+
+/* 13. Wavy Pattern */
+
+
+
+/* background: url('https://www.transparenttextures.com/patterns/asfalt-dark.png'); */
+
+
+
+/* 14. Triangles */
+
+
+
+/* background: repeating-linear-gradient(
+  60deg,
+  #000000,
+  #000000 10px,
+  #1b1b1b 10px,
+  #1b1b1b 20px
+); */
+
+
+
+/* 15. Square Pattern */
+
+
+
+
+/* background: repeating-linear-gradient(
+  0deg,
+  #000000,
+  #000000 50px,
+  #1b1b1b 50px,
+  #1b1b1b 100px
+); */
+
+
+
+/* 16. Conic Gradient */
+
+
+
+/* background: conic-gradient(#28A745, #000000); */
+
+
+
+/* 17. Gradient with Texture */
+
+
+
+/* background: linear-gradient(135deg, #000000, #39FF14), url('https://www.transparenttextures.com/patterns/noise.png'); */
+
+
+
+/* 18. Abstract Shapes */
+
+
+/* background: url('https://www.transparenttextures.com/patterns/diagonal-noise.png'); */
+
+
+
+/* 19. Gradient Border Effect */
+
+
+
+/* background: linear-gradient(135deg, #28A745, #000000); */
+
+
+
+/* 20. Overlapping Waves */
+
+
+
+/* background: url('https://www.transparenttextures.com/patterns/wavecut.png'); */
+
+
+
+
+
+
+/* 21. Neon Glow */
+
+
+/* 
+background: #000000;
+box-shadow: 0 0 20px #28A745; */
+
+
+
+
+/* 22. Glitch Effect */
+
+
+
+/* background: linear-gradient(90deg, #28A745, #000000 50%, #39FF14 100%); */
+
+
+
+
+
+
+/* 23. Blurred Background */
+
+
+
+/* background: linear-gradient(135deg, #000000, #28A745);
+filter: blur(4px); */
+
+
+
+
+/* 24. Grid Pattern */
+
+
+
+/* background: repeating-linear-gradient(
+  0deg,
+  #000000,
+  #000000 1px,
+  #1b1b1b 1px,
+  #1b1b1b 50px
+); */
+
+
+
+
+/* 25. Dynamic Dots */
+
+
+
+/* background: radial-gradient(circle, #39FF14, #000000); */
+
+
+
+/* 26. Abstract Circles */
+
+
+
+/* background: radial-gradient(circle at center, #28A745, #000000); */
+
+
+
+/* 27. Pixel Pattern */
+
+
+
+/* background: repeating-linear-gradient(
+  0deg,
+  #000000,
+  #000000 5px,
+  #28A745 5px,
+  #28A745 10px
+); */
+
+
+
+
+/* 28. Moving Gradient */
+
+
+
+/* background: linear-gradient(90deg, #000000, #39FF14, #28A745);
+background-size: 200% 200%;
+animation: move-gradient 10s linear infinite;
+@keyframes move-gradient {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+} */
+
+
+
+
+/* 29. Complex Pattern */
+
+
+
+
+/* background: url('https://www.transparenttextures.com/patterns/3px-tile.png'); */
+
+
+
+
+/* 30. Textured Gradient */
+
+
+
+/* background: linear-gradient(120deg, #000000, #28A745), url('https://www.transparenttextures.com/patterns/subtle-dots.png'); */
+
+
+
+
+}
