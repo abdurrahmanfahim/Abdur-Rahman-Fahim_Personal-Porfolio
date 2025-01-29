@@ -2810,8 +2810,8 @@ body
 
 /* 3. Diagonal Stripe Pattern */
 
-
-/* background: repeating-linear-gradient(
+/* 
+background: repeating-linear-gradient(
   45deg,
   #000000,
   #000000 10px,
@@ -2841,8 +2841,8 @@ animation: gradient-animation 6s ease infinite;
 
 
 /* background: #000000;
-background-image: url('https://www.transparenttextures.com/patterns/noise.png');
- */
+background-image: url('https://www.transparenttextures.com/patterns/noise.png'); */
+
 
 
 
@@ -2888,8 +2888,8 @@ background: repeating-linear-gradient(
 /* 9. Chevron Pattern */
 
 
-/* 
-background: repeating-linear-gradient(
+
+/* background: repeating-linear-gradient(
   45deg,
   #1b1b1b,
   #1b1b1b 15px,
@@ -2902,14 +2902,14 @@ background: repeating-linear-gradient(
 /* 10. Radial Gradient */
 
 
-/* background: radial-gradient(circle, #28A745, #000000);
+/* background: radial-gradient(circle, #28A745, #000000); */
 
- */
+
 
 /* 11. Polka Dots */
 
-/* 
-background: radial-gradient(circle, #28A745 5%, transparent 6%);
+
+/* background: radial-gradient(circle, #28A745 5%, transparent 6%);
 background-size: 30px 30px; */
 
 
@@ -2917,8 +2917,8 @@ background-size: 30px 30px; */
 /* 12. Stripes */
 
 
-/* 
-background: linear-gradient(45deg, #1b1b1b 25%, transparent 25%, transparent 75%, #1b1b1b 75%, #1b1b1b);
+
+/* background: linear-gradient(45deg, #1b1b1b 25%, transparent 25%, transparent 75%, #1b1b1b 75%, #1b1b1b);
 background-size: 50px 50px; */
 
 
@@ -3005,8 +3005,8 @@ background-size: 50px 50px; */
 /* 21. Neon Glow */
 
 
-/* 
-background: #000000;
+
+/* background: #161616;
 box-shadow: 0 0 20px #28A745; */
 
 
@@ -3052,7 +3052,7 @@ filter: blur(4px); */
 
 
 
-/* background: radial-gradient(circle, #39FF14, #000000); */
+/* background: radial-gradient(circle, #313030, #000000); */
 
 
 
